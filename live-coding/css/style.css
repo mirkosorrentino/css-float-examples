@@ -1,0 +1,40 @@
+/* RESET */
+
+
+body {
+    background-color: brown;
+    color: white;
+}
+/* CONTAINER */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.foto1 {
+    float: left;
+    width: 40%;
+    margin: 5px;
+}
+
+.foto2 {
+    float: right;
+    width: 20%;
+    margin: 10px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.sub-titles {
+    font-size: 1.5rem;
+    color: orange;
+}
+
+.first-container {
+    border: 2px solid green;
+}
