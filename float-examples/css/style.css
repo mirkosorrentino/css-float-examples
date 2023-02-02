@@ -10,11 +10,22 @@
     float: left;
 }
 
-.foto2 {
+.container {
+    padding: 10px;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+/* .lorem {
+    clear: both;
+} */
+
+.ciao {
     float: right;
 }
 
-/* section {
-    margin: 40px;
-    padding: 50px;
-} */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
