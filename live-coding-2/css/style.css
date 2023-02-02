@@ -1,14 +1,48 @@
 /* RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+img {
+    max-width: 100%;
+}
 
 /* COMMON */
 
+
+/* MAIN */
 body {
     font-family: fredoka, sans-serif;
     color: white;
     background-color: black;
+    width: 80%;
+    margin: 0 auto;
 }
 
 h1 {
     color: blueviolet;
+    font-size: 3rem;
+    margin-bottom: 1em;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column {
+    width: calc(100% / 3 - (40px/3));
+    float: left;
+    text-align: center;
+}
+
+.middle {
+    margin: 0 20px;
+}
+
+h3 {
+    color: orange;
+    margin-bottom: 1em;
 }
